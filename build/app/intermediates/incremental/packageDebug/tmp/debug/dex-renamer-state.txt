@@ -1,4 +1,4 @@
-#Sun Oct 15 20:22:05 TRT 2023
+#Mon Oct 16 10:37:55 TRT 2023
 base.0=C\:\\Users\\EdaNurIsik\\Documents\\GitHub\\fooddeliveryapp\\myfooddeliveryapp\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\EdaNurIsik\\Documents\\GitHub\\fooddeliveryapp\\myfooddeliveryapp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\EdaNurIsik\\Documents\\GitHub\\fooddeliveryapp\\myfooddeliveryapp\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
