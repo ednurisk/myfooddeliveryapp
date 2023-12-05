@@ -5,21 +5,20 @@ import 'package:fooddeliveryapp/ui/main/main_view.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:stacked_services/stacked_services.dart';
 
-class FoodDeliveryApp extends StatelessWidget{
+class FoodDeliveryApp extends StatelessWidget {
   @override
-  Widget build(Object context) { //app dik dursun
-    SystemChrome.setPreferredOrientations(<DeviceOrientation>
-    [DeviceOrientation.portraitUp,
+  Widget build(Object context) {
+    //app dik dursun
+    SystemChrome.setPreferredOrientations(<DeviceOrientation>[
+      DeviceOrientation.portraitUp,
     ]);
-    return  MaterialApp(
+    return MaterialApp(
       navigatorKey: StackedService.navigatorKey,
-      onGenerateRoute: StackedRouter().onGenerateRoute,
+      //onGenerateRoute: StackedRouter().onGenerateRoute,
       navigatorObservers: [StackedService.routeObserver],
-      
       title: "Food Delivery App",
       debugShowCheckedModeBanner: false,
       home: MainView(),
     );
   }
-
 }
