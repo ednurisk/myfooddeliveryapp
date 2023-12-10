@@ -6,15 +6,11 @@ import 'package:stacked/stacked_annotations.dart';
 import 'package:splash/splash.dart';
 
 @StackedApp(
-  routes:[
-    MaterialRoute(page: SplashView, initial:true),
-    MaterialRoute(page:HomeView),
+  routes: [
+    MaterialRoute(page: SplashView, initial: true),
+    MaterialRoute(page: HomeView),
     MaterialRoute(page: MainView),
     MaterialRoute(page: DetailView),
-
-
   ],
 )
- class App {
-   
- }
+class App {}

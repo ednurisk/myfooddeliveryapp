@@ -5,10 +5,8 @@ class MainView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        child: Center(child: Text("Appi Started")),
-      ),
+    return const Scaffold(
+      body: Center(child: Text("Appi Started")),
     );
   }
 }
